@@ -1,0 +1,8 @@
+1009,4001,M,1101,fghhjjkj,12/03/2023,1102,14/03/2023/,a,08,gfghhjhj,gfhhjj
+1010,4001,H,1102,fghhjjkj,12/03/2023,1102,14/03/2023/,c,08,gfghhjhj,gfhhjj
+1005,4001,M,1101,fghhjjkj,12/03/2023,1102,14/03/2023/,o,08,gfghhjhj,gfhhjj
+1006,4001,L,1101,fghhjjkj,12/03/2023,1102,14/03/2023/,c,08,gfghhjhj,gfhhjj
+1007,4001,H,1102,fghhjjkj,12/03/2023,1102,14/03/2023/,o,08,gfghhjhj,gfhhjj
+1008,4001,L,1101,fghhjjkj,12/03/2023,1102,14/03/2023/,S,08,gfghhjhj,gfhhjj
+1009,4001,M,1101,fghhjjkj,12/03/2023,1102,14/03/2023/,o,08,gfghhjhj,gfhhjj
+1010,4001,H,1102,fghhjjkj,12/03/2023,1102,14/03/2023/,o,08,gfghhjhj,gfhhjj

@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1673942282 source:c:\users\kakanade\documents\cpp\bug_tracker\src\login.cpp
+	"Login.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<conio.h>
+	<stdlib.h>
+	<cstring>
+	<windows.h>
+
+1673854592 c:\users\kakanade\documents\cpp\bug_tracker\include\login.h
+
+1673854660 source:c:\users\kakanade\documents\cpp\bug_tracker\src\modifydata.cpp
+	"ModifyData.h"
+	<iostream>
+	<fstream>
+	<string>
+	<cstdio>
+	<regex>
+	<cstring>
+
+1673854566 c:\users\kakanade\documents\cpp\bug_tracker\include\modifydata.h
+
+1673939373 source:c:\users\kakanade\documents\cpp\bug_tracker\main.cpp
+	<iostream>
+	"ManageProject.h"
+	"Login.h"
+	"ModifyData.h"
+	"Report.h"
+	"WelcomePage.h"
+	<windows.foundation.h>
+	<exception>
+
+1673858795 c:\users\kakanade\documents\cpp\bug_tracker\include\manageproject.h
+	<string>
+	<cstdio>
+
+1673858812 source:c:\users\kakanade\documents\cpp\bug_tracker\src\manageproject.cpp
+	"ManageProject.h"
+	<iostream>
+	<string>
+	<ctime>
+	<fstream>
+	<cstdio>
+	<regex>
+	"ModifyData.h"
+	"Login.h"
+	"Report.h"
+
+1673935422 source:c:\users\kakanade\documents\cpp\bug_tracker\src\report.cpp
+	"Report.h"
+	<fstream>
+	<string>
+	<iostream>
+	<regex>
+
+1673934440 c:\users\kakanade\documents\cpp\bug_tracker\include\report.h
+	<string>
+
+1673942191 source:c:\users\kakanade\documents\cpp\bug_tracker\src\welcomepage.cpp
+	"WelcomePage.h"
+	<stdio.h>
+	<windows.foundation.h>
+	<stdlib.h>
+	<time.h>
+
+1673938476 c:\users\kakanade\documents\cpp\bug_tracker\include\welcomepage.h
+
