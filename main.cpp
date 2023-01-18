@@ -6,6 +6,7 @@
 #include "WelcomePage.h"
 #include<windows.foundation.h>
 #include<exception>
+#include "manageTicket.h"
 using namespace std;
 
 int main()
@@ -16,6 +17,7 @@ int main()
     Report c;
     bool chkpid;
     int choic,ch4;
+    manageTicket tic;
     //Report r;
     int idx;
 
@@ -85,6 +87,7 @@ box:
                         system("cls");
                         m.Modify();
                         md.CheckPId(empid);
+                        getchar();
                         cout<<"PLEASE WAIT IN THE PROCESS \n";
                         for(int i=0; i<3; i++)
                         {
@@ -111,6 +114,7 @@ box:
                             m.Delete(idx);
                         }
                         //Sleep(5000);
+                        getchar();
                         cout<<"PLEASE WAIT IN THE PROCESS \n";
                         for(int i=0; i<3; i++)
                         {
@@ -153,7 +157,77 @@ box:
                 {
 
 tbox:
-                    cout<<"***************************************************************************************"<<endl;
+                    w.ClearConsoleToColors(11,0);
+                    //tic.Option();
+                     //menu:
+                          cout << "  -------------------------- Tickets Menu---------------------------" << endl;
+  int ch,
+  x,
+  y,
+  z,
+  u,
+  v;
+  cout << "1. Add Ticket" << endl;
+  cout << "2. Modify Ticket" << endl;
+  cout << "3. Close Ticket" << endl;
+  cout << "4. Add Note to Ticket" << endl;
+  cout << "5. Add Code Snippet to Ticket" << endl;
+  cout << "0. Quit" << endl;
+  cout << "Enter your choice" << endl;
+  cin >> ch;
+  switch (ch) {
+  case 0:
+    // Quit();
+    goto menu;
+    break;
+  case 1:
+    x = tic.Add(empid);
+    getchar();
+    if (x == 1)
+        getchar();
+      goto tbox;
+    break;
+  case 2:
+    y = tic.Modify();
+    getchar();
+    if (y == 1)
+        getchar();
+      goto tbox;
+    break;
+  case 3:
+
+    z = tic.Close();
+    getchar();
+    if (z == 1)
+        getchar();
+      goto tbox;
+    break;
+  case 4:
+    u = tic.add_Note();
+    getchar();
+    if (u == 1)
+        getchar();
+      goto tbox;
+    break;
+  case 5:
+    v = tic.Snippet();
+    getchar();
+    if (v == 1)
+        getchar();
+      goto tbox;
+    break;
+  default:
+    cout << "INVALID CHOICE";
+    goto menu;
+    break;
+  }
+
+
+
+
+
+
+                   /* cout<<"***************************************************************************************"<<endl;
                     cout<<"  -------------------------- Ticket Menu---------------------------"<<endl;
                     cout<<"1. Add Ticket"<<endl;
                     cout<<"2. Modify Ticket"<<endl;
@@ -161,14 +235,15 @@ tbox:
                     cout<<"0. Quit"<<endl;
                     cout<<"***************************************************************************************"<<endl;
 //  cin.ignore();
-                    int ch2=m.inputnum1();
+                    int ch2=m.inputnum1();*/
 //int ch;
 //cout<<"Enter your choice\n";
 //cin>>ch;
-                    switch(ch2)
+                  /*  switch(ch2)
                     {
                     case 1:
                         // function
+                        tic.Option();
                         goto tbox;
                         break;
                     case 2:
@@ -186,7 +261,7 @@ tbox:
                         cout<<"Invalid choice"<<endl;
                         goto tbox;
                         break;
-                    }
+                    }*/
                 }
                 else
                 {
@@ -200,7 +275,7 @@ tbox:
 rbox:
                 system("cls");
                // w.ClearConsoleToColors(6,7);
-                w.ClearConsoleToColors(1,13);
+                w.ClearConsoleToColors(0,13);
                 cout<<"***************************************************************************************"<<endl;
                 cout<<"  -------------------------- Report Menu---------------------------"<<endl;
                 cout<<"1. Prioritywise list of tickets which are not Closed for given project"<<endl;
@@ -286,8 +361,9 @@ rbox:
                         Sleep(1000);
                         cout<<".........."<<endl;
                     }
+                     getchar();
                     goto rbox;
-                    getchar();
+
                     break;
                 case 0:
                     system("cls");
