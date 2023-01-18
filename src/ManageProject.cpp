@@ -127,7 +127,7 @@ void ManageProject:: showdata()
     {
         cout<<"Status of the failbuilt \n Can't open file"<<endl;
     }
-    cout<<"\n data from file"<<endl;
+    cout<<"\nDATA FROM FILE"<<endl;
     // cout<<"\n"<<PId<<","<<EId<<","<<Description<<","<<date<<","<<duration<<","<<Depat<<","<<Group<<endl;
     while(!infile.eof())
     {
@@ -309,7 +309,7 @@ int inputnum()
     {
         cout<<"ENTER DURATION IN THE FORM OF 01 TO 12 :  ";
         getline(cin,str);
-        if(str=="" || str.length()<2 || str.length()>2)
+        if(str=="" || str.length()<2)
         {
             cout<<"\n--------TRY AGAIN INVALID INPUT-------\n"<<endl;
         }
