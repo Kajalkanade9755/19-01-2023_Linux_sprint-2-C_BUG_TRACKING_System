@@ -23,7 +23,7 @@
 
 1673854566 c:\users\kakanade\documents\cpp\bug_tracker\include\modifydata.h
 
-1673939373 source:c:\users\kakanade\documents\cpp\bug_tracker\main.cpp
+1674036298 source:c:\users\kakanade\documents\cpp\bug_tracker\main.cpp
 	<iostream>
 	"ManageProject.h"
 	"Login.h"
@@ -32,12 +32,13 @@
 	"WelcomePage.h"
 	<windows.foundation.h>
 	<exception>
+	"manageTicket.h"
 
 1673858795 c:\users\kakanade\documents\cpp\bug_tracker\include\manageproject.h
 	<string>
 	<cstdio>
 
-1673858812 source:c:\users\kakanade\documents\cpp\bug_tracker\src\manageproject.cpp
+1674019149 source:c:\users\kakanade\documents\cpp\bug_tracker\src\manageproject.cpp
 	"ManageProject.h"
 	<iostream>
 	<string>
@@ -67,4 +68,37 @@
 	<time.h>
 
 1673938476 c:\users\kakanade\documents\cpp\bug_tracker\include\welcomepage.h
+
+1674039149 c:\users\kakanade\documents\cpp\bug_tracker\include\manageticket.h
+	<string>
+
+1674041432 source:c:\users\kakanade\documents\cpp\bug_tracker\src\manageticket.cpp
+	"manageTicket.h"
+	"CheckPID.h"
+	"CheckEmployee.h"
+	<iostream>
+	<string>
+	<ctime>
+	<fstream>
+	<sstream>
+	<cstdio>
+	<istream>
+	<regex>
+	<vector>
+
+1674041921 source:c:\users\kakanade\documents\cpp\bug_tracker\src\checkpid.cpp
+	"CheckPID.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1674041376 c:\users\kakanade\documents\cpp\bug_tracker\include\checkpid.h
+
+1674031800 c:\users\kakanade\documents\cpp\bug_tracker\include\checkemployee.h
+
+1674031790 source:c:\users\kakanade\documents\cpp\bug_tracker\src\checkemployee.cpp
+	"CheckEmployee.h"
+	<iostream>
+	<string>
+	<fstream>
 
